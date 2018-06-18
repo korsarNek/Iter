@@ -1,0 +1,24 @@
+{
+    "name": "korsarnek/iter",
+    "description": "Data manipulation for PHP in a functional way.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Konstantin Koch",
+            "email": "korsarnek@googlemail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Iter\\Tests\\": "tests/",
+            "Iter\\" : "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    }
+}
